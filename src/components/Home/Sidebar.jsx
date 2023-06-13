@@ -11,6 +11,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { AiTwotonePhone } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
+// eslint-disable-next-line react/prop-types
 const Sidebar = ({ setShowSidebar }) => {
   return (
     <>
