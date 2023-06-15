@@ -3,6 +3,7 @@ import Navbar from "../components/Home/Navbar"
 import { motion } from "framer-motion"
 import {BsArrowUpRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
+import {FaPlay} from 'react-icons/fa'
 
 const Home = () => {
   const [url,setUrl] = useState('');
@@ -27,7 +28,7 @@ const Home = () => {
       <div className="">
         {/* heroSection */}
        <div className=" bg-black w-[450px] sm:w-full">
-       <div className="h-[60rem] text-white opacity-75 " style={{backgroundImage:`url(${url})`}}>
+       <div className="h-[60rem] text-white transition-all duration-500 opacity-75 " style={{backgroundImage:`url(${url})`}}>
           {/* <div className=" mr-2`"> */}
 
             <motion.h1
@@ -65,31 +66,73 @@ const Home = () => {
         <div className="bg-[#F8F5F0] w-[450px] sm:w-full h-full md:h-[500px] cursor-pointer">
           <div className="flex flex-wrap items-center justify-between p-10 opacity-75">
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+              <img className=" w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
               <p className=" text-[30px]">Pick Up & Drop</p>
             </div>
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+              <img className=" w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
               <p className=" text-[30px]">Parking Space</p>
             </div>
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+              <img className=" w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
               <p className=" text-[30px]">Breakfast</p>
             </div>
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+              <img className=" w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
               <p className=" text-[30px]">Swimming Pool</p>
             </div>
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/2972/2972473.png" alt="" />
+              <img className="w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/2972/2972473.png" alt="" />
               <p className=" text-[30px]">Fiber Internet</p>
             </div>
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
-              <img className=" hover:animate-bounce" width={'80px'} src="https://cdn-icons-png.flaticon.com/256/2564/2564349.png" alt="" />
+              <img className='w-[60px] md:width-[80px]' src="https://cdn-icons-png.flaticon.com/256/2564/2564349.png" alt="" />
               <p className=" text-[30px]">Bar & Bbq</p>
             </div>
           </div>
         </div>
+        {/* welcome Section */}
+        <section className=" bg-[#F8F5F0]">
+          <div className="container pt-10">
+            <div className=" grid grid-cols-1 md:grid-cols-2">
+              {/* content */}
+              <div className=" bg-white rounded ml-28 h-[70rem] flex flex-col justify-between">
+                <div className=" p-10">
+                  <div className=" text-xl text-gray-500 tracking-wider">
+                    <span>5 STAR HOTEL IN DUBAI, UAE</span>
+                  </div>
+                  <div className=" text-[30px] md:text-[60px] tracking-wider mt-10">
+                    <span>Welcome To The Hotel Royel Palace</span>
+                  </div>
+                  <p className=" text-xl text-gray-500 mt-10">The Gage Hotel Offers Unforgettable Food And Drink Options. Enjoy Dinner At The Award-Winning</p>
+                </div>
+                <div className=" p-10">
+                  <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/welcome.jpg" alt="welcome thumb"/>
+                </div>
+              </div>
+              {/* photo */}
+              <div className=" relative flex items-end" style={{backgroundImage:`url('https://envato.bdevs.net/royel/wp-content/uploads/2023/05/welcome-bg.jpg')`}}>
+                {/* video */}
+                <div className=" text-white text-3xl absolute top-64 left-48 hover:bg-[#EEC78C] transition duration-150 ease-in-out border p-12 rounded-full">
+                  <a href="https://www.youtube.com/watch?v=4K6Sh1tsAW4">
+                    <FaPlay className="" />
+                  </a>
+                </div>
+                {/* contant */}
+                <div className=" p-20">
+                  <div className=" bg-white p-10">
+                    <span className=" block text-7xl mr-32">+76</span>
+                    <span className=" text-3xl">Big Suites</span>
+                  </div>
+                  <div className="bg-[#EEC78C] p-10">
+                    <span className=" block text-xl">Reservation</span>
+                    <a className=" text-2xl hover:text-white transition duration-200 ease-in-out" href="#">(91) 2365 0003</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )
