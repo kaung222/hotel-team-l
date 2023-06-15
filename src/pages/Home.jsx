@@ -3,11 +3,11 @@ import Navbar from "../components/Home/Navbar"
 import { motion } from "framer-motion"
 import {BsArrowUpRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
+import {BsArrowRight} from 'react-icons/bs'
 import {FaPlay} from 'react-icons/fa'
 
 const Home = () => {
   const [url,setUrl] = useState('');
-  console.log(url)
   const contentVariants = {
     hidden :{
       y:'30vh',
@@ -93,7 +93,7 @@ const Home = () => {
         </div>
         {/* welcome Section */}
         <section className=" bg-[#F8F5F0] w-[450px] sm:w-full">
-          <div className="container pt-2 md:pt-10">
+          <div className="container pt-2 md:pt-10 mb-20">
             <div className=" grid grid-cols-1 lg:grid-cols-2">
               {/* content */}
               <div className=" bg-white rounded ml-5 md:ml-[28] h-[70rem] flex flex-col justify-center md:justify-between">
@@ -132,7 +132,289 @@ const Home = () => {
             </div>
           </div>
         </section>
-        
+        {/* Rooms Section */}
+        <section className="w-[450px] sm:w-full bg-black">
+          <div className="" style={{backgroundImage:`url("https://envato.bdevs.net/royel/wp-content/uploads/2023/05/bd-room.jpg")`}}>
+            <div className=" text-white text-center p-32">
+              <p className=" text-xl mb-7">ROOMS</p>
+              <h1 className=" text-5xl">Our Rooms & Suites</h1>
+            </div>
+            <div className="">
+              <div className=" grid grid-cols-1 lg:grid-cols-2">
+                  {/* card 1*/}
+                <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                       <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+                {/* card 2 */}
+                <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/5-2.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+                {/* card 3 */}
+                 <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/4-2.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+                 {/* card 4 */}
+                 <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/3.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+                {/* card 5 */}
+                <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+                {/* card 6 */}
+                <div className=" bg-white ml-10 mb-10 relative">
+                  <div className="m-10 group">
+                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
+                    {/* img and hover */}
+                    <div className="">
+                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/1-3.jpg" alt="image"/>
+
+                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                        <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
+                        <div className=" grid grid-cols-2">
+                          <div className=" grid grid-row-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
+                              <p className=" text-[15px]">Pick Up & Drop</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/887/887258.png" alt="" />
+                              <p className=" text-[15px]">Parking Space</p>
+                            </div>
+                          </div>
+                          <div className=" grid grid-rows-2">
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/985/985505.png" alt="" />
+                              <p className=" text-[15px]">Breakfast</p>
+                            </div>
+                            <div className="mt-[60px] flex-col justify-center flex gap-6 items-center mx-auto">
+                              <img className=" w-[30px] md:w-[40px]" src="https://cdn-icons-png.flaticon.com/256/2784/2784593.png" alt="" />
+                              <p className=" text-[15px]">Swimming Pool</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div className=" mt-7 flex items-center gap-5">
+                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                        <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
+                      </a>
+                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
+                        <BsArrowRight />
+                      </i> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )
