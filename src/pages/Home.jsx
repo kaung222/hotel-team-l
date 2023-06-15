@@ -92,34 +92,33 @@ const Home = () => {
           </div>
         </div>
         {/* welcome Section */}
-        <section className=" bg-[#F8F5F0]">
-          <div className="container pt-10">
-            <div className=" grid grid-cols-1 md:grid-cols-2">
+        <section className=" bg-[#F8F5F0] w-[450px] sm:w-full">
+          <div className="container pt-2 md:pt-10">
+            <div className=" grid grid-cols-1 lg:grid-cols-2">
               {/* content */}
-              <div className=" bg-white rounded ml-28 h-[70rem] flex flex-col justify-between">
+              <div className=" bg-white rounded ml-5 md:ml-[28] h-[70rem] flex flex-col justify-center md:justify-between">
                 <div className=" p-10">
                   <div className=" text-xl text-gray-500 tracking-wider">
                     <span>5 STAR HOTEL IN DUBAI, UAE</span>
                   </div>
-                  <div className=" text-[30px] md:text-[60px] tracking-wider mt-10">
+                  <div className=" text-[30px] md:text-[60px] tracking-wider mt-2 md:mt-[10]">
                     <span>Welcome To The Hotel Royel Palace</span>
                   </div>
-                  <p className=" text-xl text-gray-500 mt-10">The Gage Hotel Offers Unforgettable Food And Drink Options. Enjoy Dinner At The Award-Winning</p>
+                  <p className=" text-xl text-gray-500 mt-2 md:mt-[10]">The Gage Hotel Offers Unforgettable Food And Drink Options. Enjoy Dinner At The Award-Winning</p>
                 </div>
                 <div className=" p-10">
                   <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/welcome.jpg" alt="welcome thumb"/>
                 </div>
               </div>
-              {/* photo */}
               <div className=" relative flex items-end" style={{backgroundImage:`url('https://envato.bdevs.net/royel/wp-content/uploads/2023/05/welcome-bg.jpg')`}}>
                 {/* video */}
-                <div className=" text-white text-3xl absolute top-64 left-48 hover:bg-[#EEC78C] transition duration-150 ease-in-out border p-12 rounded-full">
+                <div className=" text-white text-3xl absolute top-20 md:top-64 left-20 md:left-48 hover:bg-[#EEC78C] transition duration-150 ease-in-out border p-12 rounded-full">
                   <a href="https://www.youtube.com/watch?v=4K6Sh1tsAW4">
                     <FaPlay className="" />
                   </a>
                 </div>
                 {/* contant */}
-                <div className=" p-20">
+                <div className=" p-20 mt-60 sm:mt-[2]">
                   <div className=" bg-white p-10">
                     <span className=" block text-7xl mr-32">+76</span>
                     <span className=" text-3xl">Big Suites</span>
@@ -133,6 +132,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        
       </div>
     </>
   )
