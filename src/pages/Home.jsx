@@ -148,9 +148,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                       <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
+                       <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100 border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -176,12 +176,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
@@ -193,9 +193,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/5-2.jpg" alt="image"/>
+                    <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/5-2.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100  border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -221,12 +221,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
@@ -238,9 +238,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/4-2.jpg" alt="image"/>
+                    <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/4-2.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100  border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -266,12 +266,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
@@ -283,9 +283,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/3.jpg" alt="image"/>
+                    <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/3.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100  border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -311,12 +311,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
@@ -328,9 +328,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
+                    <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100  border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -356,12 +356,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
@@ -373,9 +373,9 @@ const Home = () => {
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
-                    <img decoding="async" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/1-3.jpg" alt="image"/>
+                    <img decoding="async" className=" h-[450px]" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/1-3.jpg" alt="image"/>
 
-                       <div className=" absolute hidden group-hover:block border border-gray-500 top-[180px] w-[665px] h-[440px] bg-gray-50">
+                       <div className=" absolute bottom-[-150px] group-hover:bottom-[70px] duration-1000 opacity-0 group-hover:opacity-100  border border-gray-500 w-[350px] md:w-[670px] h-[450px] bg-gray-50">
                         <p className=" text-gray-500 text-lg p-7 border border-gray-500">The Gage Hotel Offers Unforgettable Food And Drink Options. A Memorable Stay With Delicious Breakfast Join Us.</p>
                         <div className=" grid grid-cols-2">
                           <div className=" grid grid-row-2">
@@ -401,12 +401,12 @@ const Home = () => {
                         </div>
                        </div>
                     </div>
-                    <div className=" mt-7 flex items-center gap-5">
-                      <a href="#" className=" hidden group-hover:flex transition-all duration-300 delay-150 ease-in-out">
+                    <div className=" mt-7 flex items-center gap-5 relative">
+                      <a href="#" className="absolute left-[-150px] opacity-0 group-hover:opacity-100 group-hover:left-0 group-hover:flex duration-1000 ease-in-out">
                         <span className=" text-2xl hover:text-[#EEC78C] transition duration-200">Room Detail</span>
                       </a>
-                      <i className=" text-4xl transition-all duration-300 delay-150 ease-in-out">
-                        <BsArrowRight />
+                      <i className=" text-4xl absolute group-hover:left-[150px]">
+                        <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
                   </div>
