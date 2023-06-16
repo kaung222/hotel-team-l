@@ -30,7 +30,7 @@ const Navbar = () => {
             <span>HOME</span>
             <IoIosArrowDown />
           </Link>
-          <Link className="flex items-center justify-center gap-2 hover:text-yellow-500">
+          <Link to={'/room'} className="flex items-center justify-center gap-2 hover:text-yellow-500">
             <span>ROOMS</span>
             <IoIosArrowDown />
           </Link>
