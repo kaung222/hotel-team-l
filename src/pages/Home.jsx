@@ -112,11 +112,11 @@ const Home = () => {
               </div>
               <div className=" relative flex items-end" style={{backgroundImage:`url('https://envato.bdevs.net/royel/wp-content/uploads/2023/05/welcome-bg.jpg')`}}>
                 {/* video */}
-                <div className=" text-white text-3xl absolute top-20 md:top-64 left-20 md:left-48 hover:bg-[#EEC78C] transition duration-150 ease-in-out border p-12 rounded-full">
                   <a href="https://www.youtube.com/watch?v=4K6Sh1tsAW4">
+                <div className=" text-white text-3xl absolute top-20 md:top-64 left-20 md:left-48 hover:bg-[#EEC78C] transition duration-150 ease-in-out border p-12 rounded-full">
                     <FaPlay className="" />
-                  </a>
                 </div>
+                  </a>
                 {/* contant */}
                 <div className=" p-20 mt-60 sm:mt-[2]">
                   <div className=" bg-white p-10">
@@ -144,7 +144,7 @@ const Home = () => {
                   {/* card 1*/}
                 <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Premiere Deluxe Room</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -189,7 +189,7 @@ const Home = () => {
                 {/* card 2 */}
                 <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Superior Site Room</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -234,7 +234,7 @@ const Home = () => {
                 {/* card 3 */}
                  <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Master Suite Room</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -279,7 +279,7 @@ const Home = () => {
                  {/* card 4 */}
                  <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Junior Suite Rooms</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -324,7 +324,7 @@ const Home = () => {
                 {/* card 5 */}
                 <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Couple Sea View Room</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -369,7 +369,7 @@ const Home = () => {
                 {/* card 6 */}
                 <div className=" bg-white ml-10 mb-10 relative">
                   <div className="m-10 group">
-                    <h4 className=" text-4xl mb-8 font-normal">Premiere Deluxe Room</h4>
+                    <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">Queen Deluxe Rooms</h4>
                     <p className=" text-3xl mb-8">$899<span className=" text-xl text-gray-500 font-normal">/NIGHT</span> </p>
                     {/* img and hover */}
                     <div className="">
@@ -409,6 +409,115 @@ const Home = () => {
                         <BsArrowRight className=" duration-1000" />
                       </i> 
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Book Now Section */}
+        <section className=" mb-[200px]">
+          <div className="">
+            <div className=" text-start lg:text-center mx-5 mt-32">
+              <span className=" text-xl">BOOK NOW</span>
+              <div className=" mt-10 text-2xl w-[800px] mx-auto mb-20 tracking-wider ">
+                <h2>Welcome To Royel Palace Hotel </h2>
+                <h1 className=" mt-5">Book Your Stay Today.</h1>
+              </div>
+            </div>
+            <div className="">
+              <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div className=" relative group overflow-hidden">
+                  <img decoding="async" className="h-[600px] group-hover:scale-125 duration-300" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/pool.jpg" alt="image not found"/>
+                  {/* hover */}
+                  <div className=" absolute group-hover:bottom-[50px] duration-1000 opacity-0 group-hover:opacity-100 bottom-[0px] bg-white m-10 rounded-md p-10">
+                    <h4 className=" text-3xl my-5">Swimming Pool</h4>
+                    <p className=" text-xl tracking-widest text-gray-600 mb-8">These pools help hotels and resorts provide outstanding entertainment experiences, which translates into customer satisfaction,loyalty to the hotel and emphasize the resort brand image</p>
+                    <div className=" text-xl mb-10 group">
+                      <a href="#" className=" flex items-center gap-3">
+                        <span className="">Get the Servie</span>
+                        <div className=" group-hover:rotate-45 duration-200"> <BsArrowUpRight /> </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className=" overflow-hidden relative group hidden lg:block">
+                  <img decoding="async" className="h-[600px] group-hover:scale-125 duration-300" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/gym.jpg" alt="image not found"/>
+                  <div className=" absolute group-hover:bottom-[50px] duration-1000 opacity-0 group-hover:opacity-100 bottom-[0px] bg-white m-10 rounded-md p-10">
+                    <h4 className=" text-3xl my-5">Swimming Pool</h4>
+                    <p className=" text-xl tracking-widest text-gray-600 mb-8">These pools help hotels and resorts provide outstanding entertainment experiences, which translates into customer satisfaction,loyalty to the hotel and emphasize the resort brand image</p>
+                    <div className=" text-xl mb-10 group">
+                      <a href="#" className=" flex items-center gap-3">
+                        <span className="">Get the Servie</span>
+                        <div className=" group-hover:rotate-45 duration-200"> <BsArrowUpRight /> </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Food Menu Section */}
+        <section className=" bg-black pb-10">
+          <div className="">
+            {/* content */}
+            <div className=" text-white flex flex-col items-center p-2 md:p-32">
+            <h3 className=" text-xl my-5">FOOD MENUS</h3>
+              <p className=" text-2xl md:text-5xl mb-2 md:mb-10 mt-5 tracking-wider">Delicious Food Forever</p>
+              <div className=" mt-2 hidden md:block">
+                <ul className=" flex text-3xl gap-20">
+                  <li className=" border-b-4 border-[#EEC78C] text-[#EEC78C]">Salads</li>
+                  <li>Dessert</li>
+                  <li>Starter</li>
+                  <li>Main Dish</li>
+                </ul>
+              </div>
+            </div>
+            {/* Cards */}
+            <div className=" grid grid-cols-1 md:grid-cols-3 p-10 gap-10">
+              {/* card 1 */}
+              <div className=" group">
+                <div className=" border-gray-600 border">
+                  <div className=" flex justify-center my-10">
+                    <a href="#">
+                    <img className=" w-[200px] group-hover:scale-110 duration-200 " height="800" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/06/pasta-plate.png" alt="" decoding="async"/>
+                    </a>
+                  </div>
+                  <div className=" text-white flex flex-col items-center gap-8 mb-10">
+                    <h1 className=" text-3xl tracking-wider">Pasta Plate</h1>
+                    <p className=" text-gray-400 text-xl">Assertively conceptualize parallel...</p>
+                    <p className=" text-lg text-[#EEC78C] font-bold">$50.00</p>
+                  </div>
+                </div>
+              </div>
+              {/* Card 2 */}
+              <div className=" group">
+                <div className=" border-gray-600 border">
+                  <div className=" flex justify-center my-10">
+                    <a href="#">
+                    <img className=" w-[200px] group-hover:scale-110 duration-200 " height="800" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/06/pineapple-wedges.png" alt="" decoding="async"/>
+                    </a>
+                  </div>
+                  <div className=" text-white flex flex-col items-center gap-8 mb-10">
+                    <h1 className=" text-3xl tracking-wider">Pineapple Wadges</h1>
+                    <p className=" text-gray-400 text-xl">Assertively conceptualize parallel...</p>
+                    <p className=" text-lg text-[#EEC78C] font-bold"> <span className=" line-through">$78.00</span> $65.00</p>
+                  </div>
+                </div>
+              </div>
+              {/* Card 3 */}
+              <div className=" group">
+                <div className=" border-gray-600 border">
+                  <div className=" flex justify-center my-10">
+                    <a href="#">
+                    <img className=" w-[200px] group-hover:scale-110 duration-200 " height="800" src="https://envato.bdevs.net/royel/wp-content/uploads/2023/06/rice-bowl.png" alt="" decoding="async"/>
+                    </a>
+                  </div>
+                  <div className=" text-white flex flex-col items-center gap-8 mb-10">
+                    <h1 className=" text-3xl tracking-wider">Rice Bowl</h1>
+                    <p className=" text-gray-400 text-xl">Assertively conceptualize parallel...</p>
+                    <p className=" text-lg text-[#EEC78C] font-bold"><span className=" line-through">$78.00</span> $75.00</p>
                   </div>
                 </div>
               </div>
