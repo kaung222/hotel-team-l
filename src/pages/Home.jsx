@@ -8,6 +8,17 @@ import {FaPlay} from 'react-icons/fa'
 
 const Home = () => {
   const [url,setUrl] = useState('');
+  const gallery = [
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-1-1.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-2.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-4.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-5.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-6.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-9.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-10.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-15.jpg',
+    'https://envato.bdevs.net/royel/wp-content/uploads/2023/05/main-19.jpg'
+  ]
   const contentVariants = {
     hidden :{
       y:'30vh',
@@ -28,7 +39,7 @@ const Home = () => {
       <div className="">
         {/* heroSection */}
        <div className=" bg-black w-[450px] sm:w-full">
-       <div className="h-[60rem] text-white transition-all duration-500 opacity-75 " style={{backgroundImage:`url(${url})`}}>
+       <div className="h-[60rem] text-white transition-all duration-500" style={{backgroundImage:`url(${url})`}}>
           {/* <div className=" mr-2`"> */}
 
             <motion.h1
@@ -64,7 +75,7 @@ const Home = () => {
        </div>
        {/* service Section */}
         <div className="bg-[#F8F5F0] w-[450px] sm:w-full h-full md:h-[500px] cursor-pointer">
-          <div className="flex flex-wrap items-center justify-between p-10 opacity-75">
+          <div className="flex flex-wrap items-center justify-between p-10 opacity-7\\\\5">
             <div className="mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
               <img className=" w-[60px] md:w-[80px]" src="https://cdn-icons-png.flaticon.com/256/9575/9575966.png" alt="" />
               <p className=" text-[30px]">Pick Up & Drop</p>
@@ -459,7 +470,7 @@ const Home = () => {
           </div>
         </section>
         {/* Food Menu Section */}
-        <section className=" bg-black pb-10">
+        <section className=" bg-black pb-20">
           <div className="">
             {/* content */}
             <div className=" text-white flex flex-col items-center p-2 md:p-32">
@@ -486,7 +497,7 @@ const Home = () => {
                   </div>
                   <div className=" text-white flex flex-col items-center gap-8 mb-10">
                     <h1 className=" text-3xl tracking-wider">Pasta Plate</h1>
-                    <p className=" text-gray-400 text-xl">Assertively conceptualize parallel...</p>
+                    <p className=" text-gray-400 text-xl">Assertively conceptualize paralle</p>
                     <p className=" text-lg text-[#EEC78C] font-bold">$50.00</p>
                   </div>
                 </div>
@@ -524,6 +535,49 @@ const Home = () => {
             </div>
           </div>
         </section>
+        {/* gallery Section */}
+        <section className=" bg-white">
+            <div className=" mt-10 mb-40">
+              <div className=" p-20 flex items-center flex-col justify-center">
+                <h1 className=" text-xl tracking-widest mb-5">GALLERY</h1>
+                  <h3 className=" text-6xl mb-5">Our Gallery</h3>
+              </div>
+              <div className=" p-5">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+                  <div className=" bg-black lg:col-span-2">
+                      <img src={gallery[0]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black">
+                    <img src={gallery[1]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black">
+                      <img src={gallery[2]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+
+                  <div className=" bg-black">
+                       <img src={gallery[3]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black">
+                      <img src={gallery[4]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black lg:col-span-2 ">
+                     <img src={gallery[5]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+
+                  <div className=" bg-black lg:col-span-2">
+                     <img src={gallery[6]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black">
+                     <img src={gallery[7]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                  <div className=" bg-black">
+                     <img src={gallery[8]} className=" w-full hover:opacity-50 duration-200" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        
       </div>
     </>
   )
