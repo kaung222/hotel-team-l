@@ -51,12 +51,12 @@ const RoomDetail = () => {
 
   const adultHandler = (item) => {
     setAdult(item);
-    openAdult(false);
+    setOpenAdult(false);
   };
 
   const childHandler = (item) => {
     setChild(item);
-    openChild(false);
+    setOpenChild(false)
   };
 
   const handleCheckInDateChange = (date) => {
@@ -226,7 +226,7 @@ const RoomDetail = () => {
               </div>
               <hr />
               <div className="mx-5 my-5">
-                <h4 className=" text-2xl font-serif my-5 font-serif">
+                <h4 className=" text-2xl font-serif my-5 ">
                   Other Facilities
                 </h4>
                 <ul className=" list-disc md:grid grid-cols-3 gap-4">
@@ -329,28 +329,28 @@ const RoomDetail = () => {
                     </div>
                   </button>
                   {openAdult && (
-                    <div className="absolute flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
-                      <a
-                        href="#"
+                    <div className="absolute z-40 flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("1 adult")}
                       >
                         1 adult
-                      </a>
-                      <a
-                        href="#"
+                      </button>
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("2 adults")}
                       >
                         2 adults
-                      </a>
-                      <a
-                        href="#"
+                      </button>
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("3 adults")}
                       >
                         3 adults
-                      </a>
+                      </button>
                     </div>
                   )}
                 </div>
@@ -365,28 +365,28 @@ const RoomDetail = () => {
                     </div>
                   </button>
                   {openChild && (
-                    <div className="absolute flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
-                      <a
-                        href="#"
+                    <div className="absolute z-30 flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("1 Child")}
                       >
                         1 Child
-                      </a>
-                      <a
-                        href="#"
+                      </button>
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("2 Children")}
                       >
                         2 Children
-                      </a>
-                      <a
-                        href="#"
+                      </button>
+                      <button
+                        
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("3 Children")}
                       >
                         3 Children
-                      </a>
+                      </button>
                     </div>
                   )}
                 </div>
