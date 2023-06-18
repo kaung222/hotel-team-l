@@ -7,10 +7,20 @@
 
 *{
   font-family: Helvetica, Arial, sans-serif;
+  color: rgb(20, 21, 21)
 }
 .bg-default{
    background-color: #fff8eb;
 }
+
+
+
+
+#room:hover > div {
+  display: block;
+  transform: translateY(1);
+
 .btn{
   background: #eec78c;
+
 }

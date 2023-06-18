@@ -35,6 +35,11 @@ const Navbar = () => {
             <span className="hover:text-yellow-500">HOME</span>
             {/* <IoIosArrowDown /> */}
           </Link>
+
+          <Link to={'/room'} className="flex items-center justify-center gap-2 hover:text-yellow-500">
+            <span>ROOMS</span>
+            <IoIosArrowDown />
+
           <Link className="flex items-center justify-center px-3 py-2 gap-2 group 0">
             <span className="hover:text-yellow-500">ROOMS</span>
             <IoIosArrowDown className="group-hover:text-yellow-500" />
@@ -52,6 +57,7 @@ const Navbar = () => {
                 OUR CHEF
               </li>
             </ul>
+
           </Link>
           <Link className="flex items-center justify-center px-3 group py-2 gap-2 ">
             <span className="hover:text-yellow-500">SHOP</span>
