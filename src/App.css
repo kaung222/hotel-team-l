@@ -1,3 +1,6 @@
+@import '../node_modules/aos/dist/aos.css';
+@import '../node_modules/animate.css/animate.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +15,12 @@
 
 
 
+
 #room:hover > div {
   display: block;
   transform: translateY(1);
+
+.btn{
+  background: #eec78c;
+
 }

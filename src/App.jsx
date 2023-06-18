@@ -7,16 +7,26 @@ import Restaurant from "./components/Rooms/Restaurant";
 import Chef from "./components/Rooms/Chef";
 
 
+import Shop from "./pages/shop/Shop";
+import Cart from "./pages/shop/Cart";
+import Wishlist from "./pages/shop/Wishlist";
+
 
 const App = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/room" element={<Room />} />
         <Route path="/roomDetail" element={<RoomDetail />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/chef" element={<Chef />} />
+
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/wishlist" element={<Wishlist />} />
+
       </Routes>
     </>
   );
