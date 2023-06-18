@@ -8,7 +8,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { useEffect, useState } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
+import Footer from "../Home/Footer";
+// import "aos/dist/aos.css";
+// import '../../../node_modules/aos/dist/aos'
+
+
 
 const Room = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -1040,6 +1044,7 @@ const Room = () => {
         <br />
         <br />
       </div>
+      <Footer/>
     </>
   );
 };

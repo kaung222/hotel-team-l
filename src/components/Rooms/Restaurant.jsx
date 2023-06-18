@@ -8,7 +8,8 @@ import {
 } from "react-icons/bs";
 import Navbar from "../Home/Navbar";
 import AOS from "aos";
-import "aos/dist/aos.css";
+import Footer from "../Home/Footer";
+// import "aos/dist/aos.css";
 
 
 const Restaurant = () => {
@@ -643,9 +644,7 @@ const Restaurant = () => {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
+        <Footer />
       </div>
     </>
   );
