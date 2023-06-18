@@ -1,4 +1,5 @@
 import { FaGreaterThan } from "react-icons/fa";
+import { Link } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const Welcome = ({ pageName, location }) => {
   return (
@@ -12,7 +13,7 @@ const Welcome = ({ pageName, location }) => {
         />
 
         <div className="flex  items-center justify-center gap-5">
-          <p>Royal</p> <FaGreaterThan /> <p>{location}</p>
+          <Link to='/' className="hover:text-yellow-500">Royal</Link> <FaGreaterThan /> <p>{location}</p>
           {/* <h1 className="animate__animated animate__bounce infinite"> hello</h1> */}
         </div>
       </div>

@@ -9,19 +9,19 @@ import {
 import Navbar from "../Home/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { Link } from "react-router-dom";
 
 const Restaurant = () => {
-    const [selectedTab, setSelectedTab] = useState("salad");
-    console.log(selectedTab);
+  const [selectedTab, setSelectedTab] = useState("salad");
+  console.log(selectedTab);
 
-    useEffect(() => {
-      AOS.init();
-    }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
-    const handleTabClick = (tab) => {
-      setSelectedTab(tab);
-    };
+  const handleTabClick = (tab) => {
+    setSelectedTab(tab);
+  };
   return (
     <>
       <Navbar />
@@ -605,9 +605,9 @@ const Restaurant = () => {
                       <AiFillTag />
                       <p>Event</p>
                     </div>
-                    <a href="#" className=" ">
+                    <Link>
                       We’re Changing The Future Of Travel, <br /> Watch The Step
-                    </a>
+                    </Link>
                   </div>
                   <div className="absolute bottom-20 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
@@ -628,10 +628,10 @@ const Restaurant = () => {
                       <AiFillTag />
                       <p>Hotel</p>
                     </div>
-                    <a href="#" className=" ">
+                    <Link>
                       Best Places To Visit In Turkey In November, <br /> Safe
                       Hotel & Resort
-                    </a>
+                    </Link>
                   </div>
                   <div className="absolute bottom-28 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
