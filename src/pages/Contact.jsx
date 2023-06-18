@@ -68,7 +68,15 @@ const Contact = () => {
                   </form>
                 </div>
             </div>
-            <div className=" bg-red-300 h-screen"></div>
+            <div className="">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.188767404719!2d96.18895454502409!3d16.86655412151727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c193bf69c3aeeb%3A0xcefeaee48731458c!2sSepak%20Takraw%20Factory!5e0!3m2!1sen!2smm!4v1679830505158!5m2!1sen!2smm"
+              className="w-full h-full mt-5"
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+            </div>
           </div>
         </section>
         {/* Review Secton */}
