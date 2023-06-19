@@ -1,4 +1,8 @@
+
 import { useEffect, useState } from "react"
+
+import Footer from "../components/Home/Footer"
+
 import Navbar from "../components/Home/Navbar"
 import { motion } from "framer-motion"
 import {BsArrowUpRight} from 'react-icons/bs'
@@ -36,6 +40,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
+
       <div className="">
         {/* heroSection */}
        <div className=" bg-black w-[450px] sm:w-full">
@@ -579,6 +584,9 @@ const Home = () => {
         </section>
         
       </div>
+
+    <Footer/>
+
     </>
   )
 }
