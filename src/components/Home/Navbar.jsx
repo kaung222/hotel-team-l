@@ -90,7 +90,7 @@ const Navbar = () => {
 
         {/* nav link end  */}
         <div className="flex items-center justify-center gap-5">
-          <button className="items-center hover:bg-black transition-all duration-300 hover:text-white hidden lg:flex justify-center uppercase w-[250px] gap-3 btn py-3 px-5">
+          <button className="items-center hover:bg-black transition-all duration-300 hover:text-yellow-100 hidden lg:flex justify-center uppercase w-[250px] gap-3 btn py-3 px-5">
             <span className="text-xl">Book Now</span>
             <BsArrowUpRight />
           </button>
