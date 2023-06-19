@@ -1,17 +1,5 @@
 import { AiFillTag } from "react-icons/ai";
-
-import { BsArrowUpRight, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
-import Navbar from "../Home/Navbar"
-import AOS from "aos";
-// import "aos/dist/aos.css";
-import { useEffect } from "react";
 import Footer from "../Home/Footer";
-
-const Chef = () => {
-     useEffect(() => {
-       AOS.init();
-     }, []);
-
 import {
   BsArrowUpRight,
   BsFacebook,
@@ -350,13 +338,4 @@ const Chef = () => {
 
 export default Chef
 
-        <br />
-        <br />
-        <br />
-      </div>
-    </>
-  );
-};
-
-export default Chef;
 

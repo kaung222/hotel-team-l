@@ -39,6 +39,7 @@ const Navbar = () => {
           <Link to={'/room'} className="flex items-center justify-center gap-2 hover:text-yellow-500">
             <span>ROOMS</span>
             <IoIosArrowDown />
+            </Link>
 
 
           <Link className="flex items-center justify-center px-3 py-2 gap-2 group 0">

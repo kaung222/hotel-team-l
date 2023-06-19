@@ -14,7 +14,7 @@ import AOS from "aos";
 
 import Footer from "../Home/Footer";
 // import "aos/dist/aos.css";
-=======
+
 import "aos/dist/aos.css";
 
 
@@ -63,8 +63,6 @@ const RoomDetail = () => {
     setChild(item);
 
     setOpenChild(false);
-=======
-    setOpenChild(false)
 
   };
 

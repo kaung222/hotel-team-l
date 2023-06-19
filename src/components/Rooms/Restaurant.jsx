@@ -11,6 +11,8 @@ import AOS from "aos";
 
 import Footer from "../Home/Footer";
 // import "aos/dist/aos.css";
+import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 
 const Restaurant = () => {
@@ -24,21 +26,6 @@ const Restaurant = () => {
     const handleTabClick = (tab) => {
       setSelectedTab(tab);
     };
-
-import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
-
-const Restaurant = () => {
-  const [selectedTab, setSelectedTab] = useState("salad");
-  console.log(selectedTab);
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  const handleTabClick = (tab) => {
-    setSelectedTab(tab);
-  };
 
   return (
     <>
