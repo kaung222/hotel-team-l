@@ -1,3 +1,16 @@
+
+
+import { useEffect, useState } from "react"
+
+import Footer from "../components/Home/Footer"
+
+import Navbar from "../components/Home/Navbar"
+import { motion } from "framer-motion"
+import {BsArrowUpRight} from 'react-icons/bs'
+import {RxDotFilled} from 'react-icons/rx'
+import {BsArrowRight} from 'react-icons/bs'
+import {FaPlay} from 'react-icons/fa'
+
 import { useEffect, useState } from "react";
 import Navbar from "../components/Home/Navbar";
 import { motion } from "framer-motion";
@@ -6,6 +19,7 @@ import { RxDotFilled } from "react-icons/rx";
 import { BsArrowRight } from "react-icons/bs";
 import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 
 const Home = () => {
   const [url, setUrl] = useState("");
@@ -38,7 +52,12 @@ const Home = () => {
   }, []);
   return (
     <>
+
+    <Navbar/>
+
+
       <Navbar />
+
       <div className="">
         {/* heroSection */}
         <div className=" bg-black w-[450px] sm:w-full">
@@ -960,6 +979,9 @@ const Home = () => {
           </div>
         </section>
       </div>
+
+    <Footer/>
+
     </>
   );
 };

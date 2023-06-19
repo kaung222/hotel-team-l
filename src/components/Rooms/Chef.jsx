@@ -1,4 +1,17 @@
 import { AiFillTag } from "react-icons/ai";
+
+import { BsArrowUpRight, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+import Navbar from "../Home/Navbar"
+import AOS from "aos";
+// import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Footer from "../Home/Footer";
+
+const Chef = () => {
+     useEffect(() => {
+       AOS.init();
+     }, []);
+
 import {
   BsArrowUpRight,
   BsFacebook,
@@ -15,6 +28,7 @@ const Chef = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <Navbar />
@@ -276,9 +290,15 @@ const Chef = () => {
                       <AiFillTag />
                       <p>Event</p>
                     </div>
+
+                    <a href="#" className=" ">
+                      We’re Changing The Future Of Travel, <br /> Watch The Step
+                    </a>
+
                     <Link className="">
                       We’re Changing The Future Of Travel, <br /> Watch The Step
                     </Link>
+
                   </div>
                   <div className="absolute bottom-20 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
@@ -299,10 +319,17 @@ const Chef = () => {
                       <AiFillTag />
                       <p>Hotel</p>
                     </div>
+
+                    <a href="#" className=" ">
+                      Best Places To Visit In Turkey In November, <br /> Safe
+                      Hotel & Resort
+                    </a>
+
                     <Link className="">
                       Best Places To Visit In Turkey In November, <br /> Safe
                       Hotel & Resort
                     </Link>
+
                   </div>
                   <div className="absolute bottom-28 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
@@ -314,6 +341,15 @@ const Chef = () => {
             </div>
           </div>
         </div>
+
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default Chef
+
         <br />
         <br />
         <br />
@@ -323,3 +359,4 @@ const Chef = () => {
 };
 
 export default Chef;
+
