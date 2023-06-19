@@ -67,7 +67,7 @@ const Sidebar = ({ setShowSidebar }) => {
             <span className="w-full hover:text-yellow-500">BLOG</span>
             <BsPlus className="text-xl" />
           </Link>
-          <Link className="flex py-2 items-center justify-between">
+          <Link to={`/contact`} className="flex py-2 items-center justify-between">
             <span className="w-full hover:text-yellow-500 text-lg">
               Contact
             </span>

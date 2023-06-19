@@ -8,6 +8,23 @@ import {
 } from "react-icons/bs";
 import Navbar from "../Home/Navbar";
 import AOS from "aos";
+
+import Footer from "../Home/Footer";
+// import "aos/dist/aos.css";
+
+
+const Restaurant = () => {
+    const [selectedTab, setSelectedTab] = useState("salad");
+    console.log(selectedTab);
+
+    useEffect(() => {
+      AOS.init();
+    }, []);
+
+    const handleTabClick = (tab) => {
+      setSelectedTab(tab);
+    };
+
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
@@ -22,6 +39,7 @@ const Restaurant = () => {
   const handleTabClick = (tab) => {
     setSelectedTab(tab);
   };
+
   return (
     <>
       <Navbar />
@@ -605,9 +623,15 @@ const Restaurant = () => {
                       <AiFillTag />
                       <p>Event</p>
                     </div>
+
+                    <a href="#" className=" ">
+                      We’re Changing The Future Of Travel, <br /> Watch The Step
+                    </a>
+
                     <Link>
                       We’re Changing The Future Of Travel, <br /> Watch The Step
                     </Link>
+
                   </div>
                   <div className="absolute bottom-20 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
@@ -628,10 +652,17 @@ const Restaurant = () => {
                       <AiFillTag />
                       <p>Hotel</p>
                     </div>
+
+                    <a href="#" className=" ">
+                      Best Places To Visit In Turkey In November, <br /> Safe
+                      Hotel & Resort
+                    </a>
+
                     <Link>
                       Best Places To Visit In Turkey In November, <br /> Safe
                       Hotel & Resort
                     </Link>
+
                   </div>
                   <div className="absolute bottom-28 md:bottom-14 right-10 z-10">
                     <p className=" text-white text-sm md:text-2xl bg-orange-300 px-4 py-3 rounded">
@@ -643,9 +674,13 @@ const Restaurant = () => {
             </div>
           </div>
         </div>
+
+        <Footer />
+
         <br />
         <br />
         <br />
+
       </div>
     </>
   );
