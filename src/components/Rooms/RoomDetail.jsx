@@ -11,8 +11,12 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import AOS from "aos";
+
 import Footer from "../Home/Footer";
 // import "aos/dist/aos.css";
+=======
+import "aos/dist/aos.css";
+
 
 const RoomDetail = () => {
   const [openAdult, setOpenAdult] = useState(false);
@@ -57,7 +61,11 @@ const RoomDetail = () => {
 
   const childHandler = (item) => {
     setChild(item);
+
     setOpenChild(false);
+=======
+    setOpenChild(false)
+
   };
 
   const handleCheckInDateChange = (date) => {
@@ -227,7 +235,13 @@ const RoomDetail = () => {
               </div>
               <hr />
               <div className="mx-5 my-5">
+
                 <h4 className=" text-2xl font-serif my-5 ">Other Facilities</h4>
+
+                <h4 className=" text-2xl font-serif my-5 ">
+                  Other Facilities
+                </h4>
+
                 <ul className=" list-disc md:grid grid-cols-3 gap-4">
                   <li>Mosquito Net</li>
                   <li>Terrace</li>
@@ -330,18 +344,23 @@ const RoomDetail = () => {
                   {openAdult && (
                     <div className="absolute z-40 flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
                       <button
+
+                        
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("1 adult")}
                       >
                         1 adult
                       </button>
                       <button
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("2 adults")}
                       >
                         2 adults
                       </button>
                       <button
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => adultHandler("3 adults")}
                       >
@@ -363,18 +382,21 @@ const RoomDetail = () => {
                   {openChild && (
                     <div className="absolute z-30 flex flex-col top-1 left-16 py-2 bg-gray-100 rounded-md uppercase">
                       <button
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("1 Child")}
                       >
                         1 Child
                       </button>
                       <button
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("2 Children")}
                       >
                         2 Children
                       </button>
                       <button
+
                         className=" px-4 py-2 text-gray-800 hover:bg-orange-200 hover:text-gray-500"
                         onClick={() => childHandler("3 Children")}
                       >
@@ -757,7 +779,13 @@ const RoomDetail = () => {
             </ul>
           </div>
         </div>
+
         <Footer />
+
+        <br />
+        <br />
+        <br />
+
       </div>
     </>
   );

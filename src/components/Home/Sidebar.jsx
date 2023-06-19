@@ -19,7 +19,8 @@ const Sidebar = ({ setShowSidebar }) => {
         animate={{ x: 0 }}
         initial={{ x: "350px" }}
         exit={{ x: "350px" }}
-        className=" w-full md:w-[400px] h-screen bg-default fixed top-0 p-5 right-0 overflow-auto"
+        
+        className=" w-full md:w-[400px] z-30 h-screen bg-default fixed top-0 p-5 right-0 overflow-auto"
       >
         <div className="flex items-center justify-between">
           <img
@@ -46,7 +47,7 @@ const Sidebar = ({ setShowSidebar }) => {
         </div>
         {/* nav link  */}
         <div className="mt-5">
-          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between">
+          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to='/home'>
             <span className="w-full hover:text-yellow-500">HOME</span>
             <BsPlus className="text-xl" />
           </Link>
@@ -54,7 +55,7 @@ const Sidebar = ({ setShowSidebar }) => {
             <span className="w-full hover:text-yellow-500">ROOMS</span>
             <BsPlus className="text-xl" />
           </Link>
-          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between">
+          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to='/shop'>
             <span className="w-full hover:text-yellow-500">SHOP</span>
             <BsPlus className="text-xl" />
           </Link>
