@@ -48,7 +48,7 @@ const Home = () => {
 
       <div className="">
         {/* heroSection */}
-        <div className=" bg-black w-[450px] sm:w-full">
+        <div className=" bg-black w-[450px] sm:w-60">
           <div
             className="h-[60rem] text-white transition-all duration-500"
             style={{ backgroundImage: `url(${url})` }}

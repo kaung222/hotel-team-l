@@ -20,7 +20,7 @@ const Navbar = () => {
             <img
               src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/logo.png"
               alt=""
-              className="w-[200px]"
+              className=" w-[100px] md:w-[200px]"
             />
           </Link>
         </div>
@@ -106,10 +106,10 @@ const Navbar = () => {
             <BsArrowUpRight />
           </button>
 
-          <button className="group" onClick={(e) => handleSidebar(e)}>
-            <p className="w-16 h-1 border-b-[1px] border-slate-500 group-hover:border-yellow-500 bg-slate-500"></p>
-            <p className="w-12 h-1 border-b-[1px] my-2 border-slate-500 group-hover:border-yellow-500 bg-slate-500 group-hover:w-16 duration-300"></p>
-            <p className="w-16 h-1 border-b-[1px] border-slate-500 group-hover:border-yellow-500 bg-slate-500"></p>
+          <button className="group pe-10" onClick={(e) => handleSidebar(e)}>
+            <p className="w-14 h-1 border-b-[1px] border-slate-500 group-hover:border-yellow-500 bg-slate-500"></p>
+            <p className="w-10 h-1 border-b-[1px] my-2 border-slate-500 group-hover:border-yellow-500 bg-slate-500 group-hover:w-16 duration-300"></p>
+            <p className="w-14 h-1 border-b-[1px] border-slate-500 group-hover:border-yellow-500 bg-slate-500"></p>
           </button>
         </div>
       </div>
