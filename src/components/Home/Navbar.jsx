@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
       {/* navbar  */}
-      <div className="px-5 py-3 flex items-center z-30 justify-between bg-slate-50">
+      <div className="px-5 py-3 flex items-center z-30 justify-between bg-slate-50 fixed w-[450px] sm:w-screen">
         <div className="flex items-center justify-between lg:justify-start gap-5">
           <Link to="/">
             <img
@@ -90,7 +90,7 @@ const Navbar = () => {
               </Link>
             </ul>
           </Link>
-          <Link className="flex items-center justify-center px-3 py-2 gap-2 hover:text-yellow-500">
+          <Link to={'/contact'} className="flex items-center justify-center px-3 py-2 gap-2 hover:text-yellow-500">
             <span>CONTACT</span>
           </Link>
         </div>

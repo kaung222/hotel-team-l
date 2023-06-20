@@ -19,10 +19,10 @@ const Sidebar = ({ setShowSidebar }) => {
         animate={{ x: 0 }}
         initial={{ x: "350px" }}
         exit={{ x: "350px" }}
-        
+
         className=" w-full md:w-[400px] z-30 h-screen bg-default fixed top-0 p-5 right-0 overflow-auto"
       >
-        <div className="flex items-center justify-between">
+        <div className="flex w-96 items-center justify-start gap-28 gap">
           <img
             src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/logo.png"
             alt=""
@@ -39,7 +39,7 @@ const Sidebar = ({ setShowSidebar }) => {
         <div className="flex my-5 border-b-[1px] border-slate-400 bg-default">
           <input
             type="text"
-            className=" outline-none bg-default text-slate-600 w-full"
+            className=" outline-none bg-default text-slate-600"
           />
           <button className="p-2">
             <BsSearch />
@@ -47,40 +47,40 @@ const Sidebar = ({ setShowSidebar }) => {
         </div>
         {/* nav link  */}
         <div className="mt-5">
-          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to='/home'>
-            <span className="w-full hover:text-yellow-500">HOME</span>
-            <BsPlus className="text-xl" />
+          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to='/'>
+            <span className=" hover:text-yellow-500">HOME</span>
+            {/* <BsPlus className="text-xl" /> */}
           </Link>
-          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between">
-            <span className="w-full hover:text-yellow-500">ROOMS</span>
-            <BsPlus className="text-xl" />
+          <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to={'/room'}>
+            <span className=" hover:text-yellow-500">ROOMS</span>
+            {/* <BsPlus className="text-xl" /> */}
           </Link>
           <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between" to='/shop'>
-            <span className="w-full hover:text-yellow-500">SHOP</span>
-            <BsPlus className="text-xl" />
+            <span className=" hover:text-yellow-500">SHOP</span>
+            {/* <BsPlus className="text-xl" /> */}
           </Link>
           <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between">
-            <span className="w-full hover:text-yellow-500">PAGES</span>
-            <BsPlus className="text-xl" />
+            <span className=" hover:text-yellow-500">PAGES</span>
+            {/* <BsPlus className="text-xl" /> */}
           </Link>
           <Link className="flex py-2 border-b-[1px] border-slate-300 items-center justify-between">
-            <span className="w-full hover:text-yellow-500">BLOG</span>
+            <span className=" hover:text-yellow-500">BLOG</span>
             <BsPlus className="text-xl" />
           </Link>
           <Link to={`/contact`} className="flex py-2 items-center justify-between">
-            <span className="w-full hover:text-yellow-500 text-lg">
+            <span className=" hover:text-yellow-500 text-lg">
               Contact
             </span>
           </Link>
         </div>
         {/* About  */}
-        <div className="mt-7">
+        {/* <div className="mt-7">
           <p className="text-2xl my-3 font-normal">About Royal Hotel</p>
           <p className="font-light">
             Experience legendary service in the heart of royel. The new
             generation of luxury. A Haven of Comfort and Elegance in royel
           </p>
-        </div>
+        </div> */}
         {/* contact info  */}
 
         <div className="mt-5">
