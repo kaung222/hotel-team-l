@@ -31,12 +31,6 @@ const App = () => {
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/chef" element={<Chef />} />
 
-
-        <Route path="/room" element={<Room />} />
-        <Route path="/room-detail" element={<RoomDetail />} />
-        <Route path="/restaurant" element={<Restaurant />} />
-        <Route path="/chef" element={<Chef />} />
-
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist />} />

@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Footer from "../Home/Footer";
+import { Link } from "react-router-dom";
 // import "aos/dist/aos.css";
 // import '../../../node_modules/aos/dist/aos'
 
@@ -79,6 +80,7 @@ const Room = () => {
                         architecto ex debitis sunt ut
                       </p>
                     </div>
+
                     <div className="flex gap-5 mx-10 my-5">
                       <button className=" bg-stone-300 shadow-sm px-2 py-2 rounded-full mx-2 hover:bg-black">
                         <BiTaxi className=" text-3xl text-slate-500 hover:text-white" />
@@ -99,6 +101,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$799</span>/Night
                       </p>
@@ -144,6 +151,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$899</span>/Night
                       </p>
@@ -189,6 +201,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$699</span>/Night
                       </p>
@@ -234,6 +251,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$799</span>/Night
                       </p>
@@ -279,6 +301,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$899</span>/Night
                       </p>
@@ -324,6 +351,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$699</span>/Night
                       </p>
@@ -380,6 +412,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$799</span>/Night
                       </p>
@@ -425,6 +462,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$899</span>/Night
                       </p>
@@ -470,6 +512,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$699</span>/Night
                       </p>
@@ -515,6 +562,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$799</span>/Night
                       </p>
@@ -560,6 +612,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$899</span>/Night
                       </p>
@@ -605,6 +662,11 @@ const Room = () => {
                         <span>Book Now</span>
                         <BsArrowBarRight />
                       </button>
+                      <Link to={"/roomDetail"}>
+                        <button className="flex px-3 rounded bg-orange-200 text-white justify-center items-center font-semibold cursor-pointer">
+                          Detail
+                        </button>
+                      </Link>
                       <p>
                         <span className=" font-semibold">$699</span>/Night
                       </p>
@@ -1049,8 +1111,7 @@ const Room = () => {
         <br />
       </div>
 
-      <Footer/>
-
+      <Footer />
     </>
   );
 };
