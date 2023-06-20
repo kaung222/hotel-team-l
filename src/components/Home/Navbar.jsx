@@ -36,13 +36,18 @@ const Navbar = () => {
             {/* <IoIosArrowDown /> */}
           </Link>
 
-          <Link to={'/room'} className="flex items-center justify-center gap-2 hover:text-yellow-500">
+          {/* <Link
+            to={"/room"}
+            className="flex items-center justify-center gap-2 hover:text-yellow-500"
+          >
             <span>ROOMS</span>
             <IoIosArrowDown />
-            </Link>
+          </Link> */}
 
-
-          <Link className="flex items-center justify-center px-3 py-2 gap-2 group 0">
+          <Link
+            to={"/room"}
+            className="flex items-center justify-center px-3 py-2 gap-2 group 0"
+          >
             <span className="hover:text-yellow-500">ROOMS</span>
             <IoIosArrowDown className="group-hover:text-yellow-500" />
             <ul className=" bg-slate-50 ml-7 z-20 hidden group-hover:block animate__fadeInUp animate__animated p-3 pt-10 duration-500 w-[200px] top-[50px] absolute ">
@@ -67,7 +72,6 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-
           </Link>
           <Link className="flex items-center justify-center px-3 group py-2 gap-2 ">
             <span className="hover:text-yellow-500">SHOP</span>
