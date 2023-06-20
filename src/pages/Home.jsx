@@ -258,9 +258,9 @@ const Home = () => {
               <div className="">
                 <div className=" grid grid-cols-1 lg:grid-cols-2">
                   {/* card 1*/}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl md:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Premiere Deluxe Room
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -273,7 +273,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] md:h-[450px]"
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg"
                           alt="image"
                         />
@@ -337,9 +337,9 @@ const Home = () => {
                     </div>
                   </div>
                   {/* card 2 */}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl lg:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Superior Site Room
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -352,7 +352,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] lg:h-[450px] "
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/5-2.jpg"
                           alt="image"
                         />
@@ -416,9 +416,9 @@ const Home = () => {
                     </div>
                   </div>
                   {/* card 3 */}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white  mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl lg:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Master Suite Room
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -431,7 +431,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] md:h-[450px]"
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/4-2.jpg"
                           alt="image"
                         />
@@ -495,9 +495,9 @@ const Home = () => {
                     </div>
                   </div>
                   {/* card 4 */}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white  mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl lg:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Junior Suite Rooms
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -510,7 +510,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] md:h-[450px]"
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/3.jpg"
                           alt="image"
                         />
@@ -574,9 +574,9 @@ const Home = () => {
                     </div>
                   </div>
                   {/* card 5 */}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white  mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl lg:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Couple Sea View Room
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -589,7 +589,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] md:h-[450px]"
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/2.jpg"
                           alt="image"
                         />
@@ -653,9 +653,9 @@ const Home = () => {
                     </div>
                   </div>
                   {/* card 6 */}
-                  <div className=" bg-white ml-10 mb-10 relative">
+                  <div className=" bg-white  mr-20 lg:mr-1 ml-2 md:ml-10 mb-10 relative">
                     <div className="m-10 group">
-                      <h4 className=" text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
+                      <h4 className=" text-xl lg:text-4xl mb-8 font-normal hover:text-[#EEC78C] duration-200 cursor-pointer">
                         Queen Deluxe Rooms
                       </h4>
                       <p className=" text-3xl mb-8">
@@ -668,7 +668,7 @@ const Home = () => {
                       <div className="">
                         <img
                           decoding="async"
-                          className=" h-[450px]"
+                          className=" h-[300px] md:h-[450px]"
                           src="https://envato.bdevs.net/royel/wp-content/uploads/2023/05/1-3.jpg"
                           alt="image"
                         />
