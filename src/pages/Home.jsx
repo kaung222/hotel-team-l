@@ -59,18 +59,20 @@ const Home = () => {
       <div className=" overflow-hidden">
         {/* heroSection */}
         <div data-aos="fade-up" data-aos-duration="3000" className="">
-          <div className=" bg-black w-screen">
+          <div className=" w-screen">
+
             <div
-              className="h-[60rem] text-white transition-all duration-500"
+              className="h-[50rem] text-white transition-all duration-500 relative"
               style={{ backgroundImage: `url(${url})` }}
             >
-              {/* <div className=" mr-2`"> */}
-
+              <div className="">
+          <div className=" z-0 w-screen pointer-events-none bg-black opacity-70 h-[50rem] absolute top-5"></div>
+          
               <motion.h1
                 variants={contentVariants}
                 initial="hidden"
                 animate="visible"
-                className=" pt-60 pl-10 text-lg sm:text-2xl tracking-wider sm:tracking-[.5rem]"
+                className=" pt-60 pr-18 text-md sm:text-2xl tracking-wider sm:tracking-[.5rem] hero opacity-90"
               >
                 THE NEW GENERATION OF LUXURY
               </motion.h1>
@@ -78,24 +80,23 @@ const Home = () => {
                 variants={contentVariants}
                 initial="hidden"
                 animate="visible"
-                className=" pt-20 md:pt-20 pb-5 pl-10 text-3xl sm:text-[70px] "
+                className=" pt-20 md:pt-20 pb-5 pl-8 text-3xl sm:text-[70px] hero opacity-90"
               >
-                LUXURY REDEFINED:{" "}
+                LUXURY REDEFINED
               </motion.h1>
               <motion.h1
                 variants={contentVariants}
                 initial="hidden"
                 animate="visible"
-                className=" pl-10 md:pt-10 text-3xl sm:text-[70px]"
+                className=" pl-8 md:pt-10 text-3xl sm:text-[70px] hero opacity-90"
               >
                 WELCOME TO ROYAL
               </motion.h1>
-
-              <button className="transition duration-500 ease-in-out mt-52 md:mt-20 ml-10 px-8 py-5 flex items-center gap-3 text-xl border border-white hover:bg-[#EEC78C] hover:text-black hover:border-black">
-                CHECK AVAILABILITY <BsArrowUpRight />{" "}
+              <button className=" opacity-90 transition duration-500 ease-in-out mt-52 md:mt-20 ml-10 px-8 py-5 flex items-center gap-3 text-xl border border-white hover:bg-[#EEC78C] text-white hover:text-black hover:border-black">
+                CHECK AVAILABILITY <BsArrowUpRight />
               </button>
-              {/* </div> */}
-              <div className=" hidden md:flex justify-end text-2xl mt-32 gap-10 p-10">
+              </div>
+              {/* <div className=" hidden md:flex justify-end text-2xl mt-32 gap-10 p-10">
                 <div
                   onClick={() =>
                     setUrl(
@@ -126,14 +127,14 @@ const Home = () => {
                 >
                   <RxDotFilled />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
         {/* service Section */}
         <div data-aos="fade-up" data-aos-duration="3000" className="">
-          <div className="bg-[#F8F5F0] w-[450px] md:w-full h-full md:h-[600px] cursor-pointer">
-            <div className=" grid grid-cols-2 md:grid-cols-3 md:p-5 me-10 opacity-7\\\\5">
+          <div className="bg-[#F8F5F0] w-[450px] sm:w-full md:w-full h-full md:h-[600px] cursor-pointer">
+            <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 md:p-5 me-10 opacity-75">
               <div className="mt-[60px] md:mt-[120px] flex-col justify-center flex gap-6 items-center hover:animate-bounce mx-auto">
                 <img
                   className=" w-[40px] md:w-[80px]"
